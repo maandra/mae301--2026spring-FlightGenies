@@ -17,6 +17,8 @@
   o Why does this problem matter in the next 3–5 years?
   o What changed (technology, regulations, culture) that makes this possible now?
 
+This problem matters now because air travel demand is high, disruptions are common and costly, and travelers increasingly care about reliability before they book. At the same time, several changes make this product possible in a way it was not a few years ago: aviation data infrastructure is improving, with the FAA modernizing how aeronautical data is collected and shared to support real-time operations, AI tools are now strong enough to detect patterns across interacting variables like weather, route history, airport congestion, and airline performance
+
 6. Proposed AI-Powered Solution
   o What does your product do for the user?
    Our model provides people insight on the probability of their flight being delayed or cancelled. By knowing that there's a higher chance of their flight being delayed, someone can accomodate their plans with that possibility in mind. For exmaple, a user could agree to pick up their friend from the airport at 10am and have plans to go to work at noon. Now, if that flight gets delayed, then that person has to choose between picking up their friend from the airport or going to work. To avoid this problem, the friend could've predicted that there was a high chance of their flight being delayed and therefore could've chosen someone with more leeway in theur schedule to pick them up from the airport. 
@@ -40,9 +42,10 @@ In about 6 weeks, a realistic MVP is a flight reliability ranking tool, which wi
 
 10. Risks and Open Questions
   o Top 3 unknowns (e.g., data availability, evaluation, user adoption).
+
   1: Timely Data: Past flight data is easy enough to procure but current data is hard to come by. The older the data, the less reliable it will be for modern flight calculations so this could potentially be a risk.
   2: Irregular Operations: Storms, strikes, and other irregular operations could make the algorithm less reliable. The AI will be trained on data that relates to normal operations and may not handle rarer events well.
   
-11. Planned Data Sources
+12. Planned Data Sources
   o E.g., Kaggle, Hugging Face Datasets, public APIs, synthetic data.
 We plan to use Kaggle to source our data sets. We have already downloaded data sets that include thousands of flight data from the years 2018-2022. This data includes information for each flight including: cancellation status, delayed departure/arrival time, flight origin and destination, airline, and more.
