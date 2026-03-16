@@ -44,7 +44,10 @@ In about 6 weeks, a realistic MVP is a flight reliability ranking tool, which wi
   o Top 3 unknowns (e.g., data availability, evaluation, user adoption).
 
   1: Timely Data: Past flight data is easy enough to procure but current data is hard to come by. The older the data, the less reliable it will be for modern flight calculations so this could potentially be a risk.
+  
   2: Irregular Operations: Storms, strikes, and other irregular operations could make the algorithm less reliable. The AI will be trained on data that relates to normal operations and may not handle rarer events well.
+
+  3: Changing Operations: Airlines and airports change their operations patterns over time so we would need to be aware of how often the base data would need to be updated regaridng new patterns. 
   
 12. Planned Data Sources
   o E.g., Kaggle, Hugging Face Datasets, public APIs, synthetic data.
