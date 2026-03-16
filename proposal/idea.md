@@ -44,3 +44,6 @@ In about 6 weeks, a realistic MVP is a flight reliability ranking tool, which wi
 11. Planned Data Sources
   o E.g., Kaggle, Hugging Face Datasets, public APIs, synthetic data.
 We plan to use Kaggle to source our data sets. We have already downloaded data sets that include thousands of flight data from the years 2018-2022. This data includes information for each flight including: cancellation status, delayed departure/arrival time, flight origin and destination, airline, and more.
+
+
+HI
