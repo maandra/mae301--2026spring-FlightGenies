@@ -17,7 +17,7 @@
   o Why does this problem matter in the next 3–5 years?
   o What changed (technology, regulations, culture) that makes this possible now?
 
-This problem matters now because air travel demand is high, disruptions are common and costly, and travelers increasingly care about reliability before they book. At the same time, several changes make this product possible in a way it was not a few years ago: aviation data infrastructure is improving, with the FAA modernizing how aeronautical data is collected and shared to support real-time operations, AI tools are now strong enough to detect patterns across interacting variables like weather, route history, airport congestion, and airline performance
+This problem matters now because air travel demand is high, disruptions are common and costly, and travelers increasingly care about reliability before they book. At the same time, several changes make this product possible when it was not a few years ago. This is because aviation data infrastructure is improving, with the FAA modernizing how aeronautical data is collected and shared to support real-time operations, and AI tools are now strong enough to detect patterns across interacting variables like weather, route history, airport congestion, and airline performance
 
 6. Proposed AI-Powered Solution
   o What does your product do for the user?
