@@ -1,1 +1,33 @@
+# Project Title: Flight Risk
 
+## Team Members
+(names, emails)
+
+## Problem Statement
+Flight delays and cancellations can disrupt business trips, vacations, and family travel with little warning. Our nanoGPT model, **Flight Risk**, will estimate the probability of a flight being delayed or cancelled so users can plan more effectively around possible disruptions. The target users are airline passengers and anyone affected by commercial flight reliability.
+
+## Why Now?
+This problem is increasingly important because air travel demand is high, disruptions are costly, and travelers care more about reliability before they book. At the same time, aviation data systems are improving, and AI models are better able to detect patterns across factors such as weather, route history, airport congestion, and airline performance.
+
+## Proposed AI-Powered Solution
+**Flight Risk** will provide users with the probability that a flight will be on time, delayed, or cancelled. This helps travelers make better decisions, such as adjusting schedules, pickup plans, or connections. AI adds value beyond simple rules because the causes of delays change over time, especially with growing weather-related disruptions, and machine learning can adapt to new data more effectively than fixed heuristics.
+
+## Initial Technical Concept
+We will use flight datasets from **2018–2022** containing features such as airline, origin, destination, scheduled and actual departure times, delay minutes, cancellation status, distance, and day of week. We also plan to incorporate storm data with date, time, and state information to improve weather-related predictions.
+
+Our main model will be a **classifier** that predicts four outcomes:
+- **On time**
+- **Short delay** (less than 30 minutes)
+- **Long delay** (more than 30 minutes)
+- **Cancelled**
+
+## Scope for MVP
+In about six weeks, a realistic MVP is a **flight reliability ranking tool**. A user can enter an origin, destination, and travel date, and the system returns a ranked list of flight options based on likelihood of delay or cancellation using historical performance, airline, route, departure time, and weather if available.
+
+## Risks and Open Questions
+1. **Timely Data:** Current data may be harder to obtain than historical data, which could reduce prediction accuracy.
+2. **Irregular Operations:** Rare disruptions like storms or strikes may make the model less reliable.
+3. **Changing Operations:** Airline and airport operating patterns change over time, so the model will likely need regular updates.
+
+## Planned Data Sources
+We plan to use **Kaggle** datasets containing flight records from **2018–2022**, including cancellation status, delays, airline, origin, destination, and related flight information.
