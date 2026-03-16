@@ -2,10 +2,12 @@
 **Flight Risk**
 
 # 2. Team Members (names, emails)
-- Name — email@example.com
-- Name — email@example.com
-- Name — email@example.com
-
+  - Melissa Andrade, maandra9@asu.edu
+  - William Jones, whjones3@asu.edu
+  - Gary Nez, gwnez@asu.edu
+  - Janine Nelson, jenels19@asu.edu
+  - Lariella Citron, lcitron@asu.edu
+    
 # 3. Problem Statement
 Have you ever had your plans thrown off because your flight was unexpectedly cancelled? Our nanoGPT model, **Flight Risk**, will estimate the probability of a flight being delayed or cancelled so users can plan their trips more effectively around possible disruptions.
 
