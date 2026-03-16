@@ -37,6 +37,7 @@
   o Define a very concrete v1 feature: “A user can ___ and our system returns ___.”
 
 In about 6 weeks, a realistic MVP is a flight reliability ranking tool, which will not include a full booking or real-time disruption platform. A user enters an origin, destination, and travel date, and the system returns a ranked list of flight options by likelihood of delay or cancellation, using historical on-time performance plus a small set of current factors like route, airline, departure time, and weather forecast if available.
+
 10. Risks and Open Questions
   o Top 3 unknowns (e.g., data availability, evaluation, user adoption).
   1: Timely Data: Past flight data is easy enough to procure but current data is hard to come by. The older the data, the less reliable it will be for modern flight calculations so this could potentially be a risk.
