@@ -22,7 +22,7 @@ This problem matters now because air travel demand is high, disruptions are comm
 5. Proposed AI-Powered Solution
   o What does your product do for the user?
    Our model provides people insight on the probability of their flight being delayed or cancelled. By knowing that there's a higher chance of their flight being delayed, someone can accomodate their plans with that possibility in mind. For exmaple, a user could agree to pick up their friend from the airport at 10am and have plans to go to work at noon. Now, if that flight gets delayed, then that person has to choose between picking up their friend from the airport or going to work. To avoid this problem, the friend could've predicted that there was a high chance of their flight being delayed and therefore could've chosen someone with more leeway in theur schedule to pick them up from the airport. 
-  o Where does AI/ML add unique value vs simple rules / heuristics?
+  o Where does AI/ML add unique value vs simple rules/heuristics?
    The reasons why flights get delayed will expand and change over time. The majority of flights are delayed or cancelled due to weather reasons. Climate change is making our planet warmer and our weather more severe, which will increasingly cause more flight delays and cancellations. Because of this, AI is the better than heauristics for the model because it can adapt over time to implement new data sets.  
  
 6. Initial Technical Concept: 
